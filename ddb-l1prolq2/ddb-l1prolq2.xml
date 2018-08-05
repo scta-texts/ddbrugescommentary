@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Principium I [Erfurt Transcription]</title>
+        <author>Dionysius De Bruges</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.08-dev-master">
+          <title>Librum I, Principium I [Erfurt Transcription]</title>
+          <date when="2015-08-16">August 16, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-08-16">August 16, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erfurt">Codex Amplonianus", UB Erfurt, Dep. Erf. CA. 2° 131.</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ddb-l1princI">
+        <head>Librum I, Principium I [Erfurt Transcription]</head>
+        <p><pb ed="#E" n="1ra"/><lb ed="#E"/><quote ana="#act10_9">Ascendit petrus ad superi<lb ed="#E"/>ora 
+          domus</quote> etc <ref>actuum 10</ref> <ref><name ref="#GregoryGreat">beatus 
+            <lb ed="#E"/>gregorius</name> 4 <title>moralia</title> capitulo 1</ref> lo<lb ed="#E"/>quens 
+          de divina scriptura 
+          <lb ed="#E"/>dicit sic <g ref="#dot"/> <unclear>sint</unclear> ignotorum homini 
+          <lb ed="#E"/>facies <unclear>terminus</unclear> et corda 
+          <lb ed="#E"/>nescimus <g ref="#dot"/> sed si <unclear>simul?ianis</unclear> 
+          <lb ed="#E"/>eis locutione coniungimus 
+          <lb ed="#E"/>usu collo quin eorum etiam co<lb ed="#E"/>gitationes 
+          <unclear>vidagamus</unclear> ita cum in sacramento eloqui sola 
+          <lb ed="#E"/>hystoria aspicitur nihil aliud quam facies videtur sed si 
+          <lb ed="#E"/><corr><unclear>hinc</unclear></corr> assiduo usus coniungimus <g ref="#dot"/></p>
+        
+        <p>Eius <unclear cert="low">mirarum</unclear> 
+          <lb ed="#E"/><choice><orig>neccesse</orig><reg>necesse</reg></choice> <unclear>quaestione</unclear> ex allocutionis <unclear>familiandae</unclear> penetramus dum 
+          <lb ed="#E"/>enim alia ex aliis colligimus <unclear>terminale</unclear> in eius verbum agno<lb ed="#E"/>scimus 
+          <g ref="#dot"/>aliud esse quod intimant aliud quod sonant <g ref="#slash"/> <g ref="#dot"/> tanto 
+          <lb ed="#E"/>alio <unclear>quisset</unclear> notitiae silligismus extraneus redditur <g ref="#dot"/> quanto 
+          <lb ed="#E"/>in sola eius <sic>eius</sic> superficie ligatur <g ref="#dot"/></p>
+        
+        <p><g ref="#pilcrow"/>Ex quibus 
+          <lb ed="#E"/>verbum colligi potest sanctis convenienter quod sacra scriptura 
+          <lb ed="#E"/>faciei ignotorum homini comparata numquam sensus <unclear>vigunt</unclear> 
+          <lb ed="#E"/>ex similitudine in rebus recollecta potest non <sic>in congrue</sic> de 
+          <lb ed="#E"/>lingua <corr><add place="aboveLine"><unclear>ri</unclear></add></corr> per ea quae in sensibus ortum habent <g ref="#dot"/></p>
+        
+        <p><g ref="#pilcrow"/>Cum 
+          <lb ed="#E"/>enim ortum <g ref="#dot"/> anima nostra a primo actualitas principio sit creata 
+          <lb ed="#E"/>propria non de potentia animae nostrae educitur quia propter cum propter di<lb ed="#E"/>stantibus 
+          eius a primo in ordine <corr>forma eius <!-- correction unclear --></corr> in actus non 
+          <lb ed="#E"/>nisi immediate receptus ipsa in ad quirendo esse dependet 
+          <lb ed="#E"/>actore et per consequens cum opinio sequatur nullam ipsa et 
+          <lb ed="#E"/><unclear>operatio</unclear> intelligibilis eius ab operatione sensibili dependebit quod 
+          <lb ed="#E"/>ostendit pulchre <name ref="#Augustine">beatus augustinus</name> <g ref="#dot"/> se fecisse et observasse XIo 
+          <lb ed="#E"/><title>de trinitate</title> capitulo 1 ubi dicit ipso ordine condictionis nostrae 
+          <lb ed="#E"/>quo mortales atque carnales effecti sumus fa<lb ed="#E"/>cilius 
+          atque <unclear>familiamus</unclear> tam visibilia quam intelligiblia 
+          <lb ed="#E"/><name>philosophus</name> tractavi <g ref="#dot"/> <corr><del rend="expunctuated">augs</del></corr> aegritudini congruendum est 
+          <lb ed="#E"/>ut si quando interiora spiritualia <choice><orig>acommodant</orig><reg>accommodant</reg></choice> distinguere 
+          <lb ed="#E"/>atque facit <corr>insinua<add place="aboveLine">ri</add></corr> reconamur de corporibus exterioribus 
+          <lb ed="#E"/>similitudinum <unclear>documenta</unclear> capiamus<g ref="#dot"/></p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

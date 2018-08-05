@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Prologus, Questio 2 [Erfurt Transcription]</title>
+        <author>Dionysius De Bruges</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.08-dev-master">
+          <title>Librum I, Prologus, Questio 2 [Erfurt Transcription]</title>
+          <date when="2015-08-16">August 16, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-08-16">August 16, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erfurt">Codex Amplonianus", UB Erfurt, Dep. Erf. CA. 2° 131.</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ddb-l1prolq2">
+        <head>Librum I, Prologus, Questio 2 [Erfurt Transcription]</head>
+        <p><lb ed="#E"/>Quia in quaestione praecedenti dictum est quod deus est subiectum 
+          <lb ed="#E"/>in theologia sub ratione contracta et non absoluta ideo 
+          <lb ed="#E"/>quaeritur utrum hic sit subiectum sub ratione absoluta</p>
+        
+        <p><lb ed="#E"/>quia prima scientia debet habere primum subiectum sub prima ratione sed 
+          <lb ed="#E"/>theologia est prima scientia ergo etc <g ref="#dot"/> maior est manifeste quia alias 
+          <lb ed="#E"/>non esset prima sed prima ratio est ratio <corr><del rend="expunctuated">de</del><add place="marginLeft">divini</add></corr> <unclear>d?ciatur dn?atur <!-- possible correction here --></unclear> 
+          <lb ed="#E"/>ut supponitur ergo deus est in theologia subiectum sub ratione <corr><del rend="strikethrough">dominatur</del><add place="marginLeft">deitatis</add></corr></p>
+        
+        <p><g ref="#pilcrow"/>Contra sub illa raitone deus est subiectum in theologiam <g ref="#pilcrow"/>Respondet 
+          <lb ed="#E"/>ratio finis <unclear>theologiae</unclear> quia ratio finis subiectum scientiae et ratio <unclear>subi??sunt</unclear> 
+          <lb ed="#E"/>proportionalia sed rationi finis theologiae Respondet ratio glorificatoris 
+          <lb ed="#E"/>quia ratio finis <unclear>consi?it</unclear> et diligibile commune et causatae ut patet in quaestione 
+          <lb ed="#E"/>praecedenti ergo non maixime diligibilis erit ratio subiect theologiae haec 
+          <lb ed="#E"/>est ratio glorificatoris ergo etc <g ref="#dot"/></p>
+        
+        <p><g ref="#dbslash"/>Responsio in quaestione 
+          <lb ed="#E"/>illa sicut in alia intendo dicere <g ref="#dot"/> 3es conclusiones <g ref="#dot"/></p>
+        
+        <p><g ref="#pilcrow"/>Prima 
+          <lb ed="#E"/>conclusio est quomodo subiectum <corr>s?m? ?ut</corr> ex hoc possit videri conditio 
+          <lb ed="#E"/>subiecti <g ref="#dot"/></p>
+        
+        
+      </div>
+    </body>
+  </text>
+</TEI>
